@@ -1,11 +1,12 @@
 import React from "react";
+import ReactCarousel from './ReactCarousel'
 import '../styles/Home.css'
 import Banner from './Banner'
 import Product from "./Product";
 const Home = () => {
     return(
         <>
-           <Banner/>
+           <ReactCarousel/>
            <div className="home_row">
             <Product 
             id='1'
