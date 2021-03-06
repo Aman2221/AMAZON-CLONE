@@ -13,9 +13,11 @@
   margin: 10px;
 }
 .product_title {
+  
   font-size: 22px;
   letter-spacing: 0.7px;
   font-weight: 500;
+  
 }
 .product_rating {
   display: flex;
@@ -44,10 +46,12 @@
   outline: none;
   cursor: pointer;
 }
+
 .product > button:hover {
   padding: 9.5px;
   transition: 0.3s;
 }
+
 @media screen and (max-width: 468px) {
   .product {
     align-items: center;
