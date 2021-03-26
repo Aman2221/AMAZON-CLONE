@@ -8,7 +8,7 @@ import Order from './components/Orders'
 import './App.css';
 import Home from './components/Home'
 import { useStateValue, StateProvider } from "./StateProvider";
-import { } from "./firebase";
+import { user } from "./firebase";
 
 function App() {
 
