@@ -7,7 +7,7 @@ import Login from './components/Login'
 import Order from './components/Orders'
 import './App.css';
 import Home from './components/Home'
-import { useStateValue } from "./StateProvider";
+import { useStateValue, StateProvider } from "./StateProvider";
 import { auth } from "./firebase";
 
 function App() {
